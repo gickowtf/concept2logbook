@@ -232,12 +232,10 @@ def _options_schema(
                 ),
             ): SelectSelector(
                 SelectSelectorConfig(
-                    options=[
-                        {"value": key, "label": label}
-                        for key, label in SUMMARY_PERIODS.items()
-                    ],
+                    options=list(SUMMARY_PERIODS),
                     multiple=True,
                     mode=SelectSelectorMode.LIST,
+                    translation_key=CONF_SUMMARY_PERIODS,
                 )
             ),
             vol.Required(
@@ -248,12 +246,10 @@ def _options_schema(
                 ),
             ): SelectSelector(
                 SelectSelectorConfig(
-                    options=[
-                        {"value": key, "label": label}
-                        for key, label in WORKOUT_TYPES.items()
-                    ],
+                    options=list(WORKOUT_TYPES),
                     multiple=True,
                     mode=SelectSelectorMode.LIST,
+                    translation_key=CONF_WORKOUT_TYPES,
                 )
             ),
         }

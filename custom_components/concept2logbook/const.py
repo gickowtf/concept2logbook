@@ -25,6 +25,8 @@ SUMMARY_PERIODS = {
     "all_time": "All time",
     "current_year": "Current year",
     "current_month": "Current month",
+    "last_year": "Last year",
+    "last_month": "Last month",
     "last_30_days": "Last 30 days",
     "last_7_days": "Last 7 days",
     "concept2_season": "Concept2 season",

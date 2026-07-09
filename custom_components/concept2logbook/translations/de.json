@@ -39,6 +39,28 @@
       "wrong_account": "Der Access Token gehört zu einem anderen Concept2 Logbook Benutzer."
     }
   },
+  "selector": {
+    "summary_periods": {
+      "options": {
+        "all_time": "Gesamt",
+        "current_year": "Aktuelles Jahr",
+        "current_month": "Aktueller Monat",
+        "last_year": "Letztes Jahr",
+        "last_month": "Letzter Monat",
+        "last_30_days": "Letzte 30 Tage",
+        "last_7_days": "Letzte 7 Tage",
+        "concept2_season": "Concept2-Saison"
+      }
+    },
+    "workout_types": {
+      "options": {
+        "all": "Alle Trainingstypen",
+        "rower": "RowErg",
+        "skierg": "SkiErg",
+        "bikeerg": "BikeErg"
+      }
+    }
+  },
   "entity": {
     "sensor": {
       "last_workout": {

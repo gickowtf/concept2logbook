@@ -75,8 +75,8 @@ to the same Concept2 Logbook user.
 - Total calories
 
 Summary sensors can be created for all time, current year, current month, last
-30 days, last 7 days, and the Concept2 season. They can be split by all workout
-types, RowErg, SkiErg, and BikeErg.
+year, last month, last 30 days, last 7 days, and the Concept2 season. They can
+be split by all workout types, RowErg, SkiErg, and BikeErg.
 
 ## HACS Default Store Preparation
 

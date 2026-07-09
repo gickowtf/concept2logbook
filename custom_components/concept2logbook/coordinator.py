@@ -176,6 +176,12 @@ def _period_dates(period: str) -> tuple[str | None, str | None]:
     if period == "current_month":
         return date(today.year, today.month, 1).isoformat(), today.isoformat()
 
+    if period == "last_year":
+        return (today - timedelta(days=364)).isoformat(), today.isoformat()
+
+    if period == "last_month":
+        return (today - timedelta(days=29)).isoformat(), today.isoformat()
+
     if period == "last_30_days":
         return (today - timedelta(days=29)).isoformat(), today.isoformat()
 
