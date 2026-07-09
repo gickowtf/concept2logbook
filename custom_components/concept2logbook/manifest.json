@@ -9,5 +9,5 @@
   "issue_tracker": "https://github.com/gickowtf/concept2logbook/issues",
   "loggers": ["httpx", "pyconcept2"],
   "requirements": ["pyconcept2==0.1.0"],
-  "version": "0.1.1"
+  "version": "0.1.2"
 }

@@ -113,6 +113,378 @@
       },
       "summary_calories": {
         "name": "Gesamtkalorien"
+      },
+      "summary_all_time_rower_count": {
+        "name": "Gesamt RowErg Trainingsanzahl"
+      },
+      "summary_all_time_rower_distance": {
+        "name": "Gesamt RowErg Distanz"
+      },
+      "summary_all_time_rower_time": {
+        "name": "Gesamt RowErg Zeit"
+      },
+      "summary_all_time_rower_calories": {
+        "name": "Gesamt RowErg Kalorien"
+      },
+      "summary_all_time_skierg_count": {
+        "name": "Gesamt SkiErg Trainingsanzahl"
+      },
+      "summary_all_time_skierg_distance": {
+        "name": "Gesamt SkiErg Distanz"
+      },
+      "summary_all_time_skierg_time": {
+        "name": "Gesamt SkiErg Zeit"
+      },
+      "summary_all_time_skierg_calories": {
+        "name": "Gesamt SkiErg Kalorien"
+      },
+      "summary_all_time_bikeerg_count": {
+        "name": "Gesamt BikeErg Trainingsanzahl"
+      },
+      "summary_all_time_bikeerg_distance": {
+        "name": "Gesamt BikeErg Distanz"
+      },
+      "summary_all_time_bikeerg_time": {
+        "name": "Gesamt BikeErg Zeit"
+      },
+      "summary_all_time_bikeerg_calories": {
+        "name": "Gesamt BikeErg Kalorien"
+      },
+      "summary_current_year_all_count": {
+        "name": "Aktuelles Jahr Trainingsanzahl"
+      },
+      "summary_current_year_all_distance": {
+        "name": "Aktuelles Jahr Gesamtdistanz"
+      },
+      "summary_current_year_all_time": {
+        "name": "Aktuelles Jahr Gesamtzeit"
+      },
+      "summary_current_year_all_calories": {
+        "name": "Aktuelles Jahr Gesamtkalorien"
+      },
+      "summary_current_year_rower_count": {
+        "name": "Aktuelles Jahr RowErg Trainingsanzahl"
+      },
+      "summary_current_year_rower_distance": {
+        "name": "Aktuelles Jahr RowErg Distanz"
+      },
+      "summary_current_year_rower_time": {
+        "name": "Aktuelles Jahr RowErg Zeit"
+      },
+      "summary_current_year_rower_calories": {
+        "name": "Aktuelles Jahr RowErg Kalorien"
+      },
+      "summary_current_year_skierg_count": {
+        "name": "Aktuelles Jahr SkiErg Trainingsanzahl"
+      },
+      "summary_current_year_skierg_distance": {
+        "name": "Aktuelles Jahr SkiErg Distanz"
+      },
+      "summary_current_year_skierg_time": {
+        "name": "Aktuelles Jahr SkiErg Zeit"
+      },
+      "summary_current_year_skierg_calories": {
+        "name": "Aktuelles Jahr SkiErg Kalorien"
+      },
+      "summary_current_year_bikeerg_count": {
+        "name": "Aktuelles Jahr BikeErg Trainingsanzahl"
+      },
+      "summary_current_year_bikeerg_distance": {
+        "name": "Aktuelles Jahr BikeErg Distanz"
+      },
+      "summary_current_year_bikeerg_time": {
+        "name": "Aktuelles Jahr BikeErg Zeit"
+      },
+      "summary_current_year_bikeerg_calories": {
+        "name": "Aktuelles Jahr BikeErg Kalorien"
+      },
+      "summary_current_month_all_count": {
+        "name": "Aktueller Monat Trainingsanzahl"
+      },
+      "summary_current_month_all_distance": {
+        "name": "Aktueller Monat Gesamtdistanz"
+      },
+      "summary_current_month_all_time": {
+        "name": "Aktueller Monat Gesamtzeit"
+      },
+      "summary_current_month_all_calories": {
+        "name": "Aktueller Monat Gesamtkalorien"
+      },
+      "summary_current_month_rower_count": {
+        "name": "Aktueller Monat RowErg Trainingsanzahl"
+      },
+      "summary_current_month_rower_distance": {
+        "name": "Aktueller Monat RowErg Distanz"
+      },
+      "summary_current_month_rower_time": {
+        "name": "Aktueller Monat RowErg Zeit"
+      },
+      "summary_current_month_rower_calories": {
+        "name": "Aktueller Monat RowErg Kalorien"
+      },
+      "summary_current_month_skierg_count": {
+        "name": "Aktueller Monat SkiErg Trainingsanzahl"
+      },
+      "summary_current_month_skierg_distance": {
+        "name": "Aktueller Monat SkiErg Distanz"
+      },
+      "summary_current_month_skierg_time": {
+        "name": "Aktueller Monat SkiErg Zeit"
+      },
+      "summary_current_month_skierg_calories": {
+        "name": "Aktueller Monat SkiErg Kalorien"
+      },
+      "summary_current_month_bikeerg_count": {
+        "name": "Aktueller Monat BikeErg Trainingsanzahl"
+      },
+      "summary_current_month_bikeerg_distance": {
+        "name": "Aktueller Monat BikeErg Distanz"
+      },
+      "summary_current_month_bikeerg_time": {
+        "name": "Aktueller Monat BikeErg Zeit"
+      },
+      "summary_current_month_bikeerg_calories": {
+        "name": "Aktueller Monat BikeErg Kalorien"
+      },
+      "summary_last_year_all_count": {
+        "name": "Letztes Jahr Trainingsanzahl"
+      },
+      "summary_last_year_all_distance": {
+        "name": "Letztes Jahr Gesamtdistanz"
+      },
+      "summary_last_year_all_time": {
+        "name": "Letztes Jahr Gesamtzeit"
+      },
+      "summary_last_year_all_calories": {
+        "name": "Letztes Jahr Gesamtkalorien"
+      },
+      "summary_last_year_rower_count": {
+        "name": "Letztes Jahr RowErg Trainingsanzahl"
+      },
+      "summary_last_year_rower_distance": {
+        "name": "Letztes Jahr RowErg Distanz"
+      },
+      "summary_last_year_rower_time": {
+        "name": "Letztes Jahr RowErg Zeit"
+      },
+      "summary_last_year_rower_calories": {
+        "name": "Letztes Jahr RowErg Kalorien"
+      },
+      "summary_last_year_skierg_count": {
+        "name": "Letztes Jahr SkiErg Trainingsanzahl"
+      },
+      "summary_last_year_skierg_distance": {
+        "name": "Letztes Jahr SkiErg Distanz"
+      },
+      "summary_last_year_skierg_time": {
+        "name": "Letztes Jahr SkiErg Zeit"
+      },
+      "summary_last_year_skierg_calories": {
+        "name": "Letztes Jahr SkiErg Kalorien"
+      },
+      "summary_last_year_bikeerg_count": {
+        "name": "Letztes Jahr BikeErg Trainingsanzahl"
+      },
+      "summary_last_year_bikeerg_distance": {
+        "name": "Letztes Jahr BikeErg Distanz"
+      },
+      "summary_last_year_bikeerg_time": {
+        "name": "Letztes Jahr BikeErg Zeit"
+      },
+      "summary_last_year_bikeerg_calories": {
+        "name": "Letztes Jahr BikeErg Kalorien"
+      },
+      "summary_last_month_all_count": {
+        "name": "Letzter Monat Trainingsanzahl"
+      },
+      "summary_last_month_all_distance": {
+        "name": "Letzter Monat Gesamtdistanz"
+      },
+      "summary_last_month_all_time": {
+        "name": "Letzter Monat Gesamtzeit"
+      },
+      "summary_last_month_all_calories": {
+        "name": "Letzter Monat Gesamtkalorien"
+      },
+      "summary_last_month_rower_count": {
+        "name": "Letzter Monat RowErg Trainingsanzahl"
+      },
+      "summary_last_month_rower_distance": {
+        "name": "Letzter Monat RowErg Distanz"
+      },
+      "summary_last_month_rower_time": {
+        "name": "Letzter Monat RowErg Zeit"
+      },
+      "summary_last_month_rower_calories": {
+        "name": "Letzter Monat RowErg Kalorien"
+      },
+      "summary_last_month_skierg_count": {
+        "name": "Letzter Monat SkiErg Trainingsanzahl"
+      },
+      "summary_last_month_skierg_distance": {
+        "name": "Letzter Monat SkiErg Distanz"
+      },
+      "summary_last_month_skierg_time": {
+        "name": "Letzter Monat SkiErg Zeit"
+      },
+      "summary_last_month_skierg_calories": {
+        "name": "Letzter Monat SkiErg Kalorien"
+      },
+      "summary_last_month_bikeerg_count": {
+        "name": "Letzter Monat BikeErg Trainingsanzahl"
+      },
+      "summary_last_month_bikeerg_distance": {
+        "name": "Letzter Monat BikeErg Distanz"
+      },
+      "summary_last_month_bikeerg_time": {
+        "name": "Letzter Monat BikeErg Zeit"
+      },
+      "summary_last_month_bikeerg_calories": {
+        "name": "Letzter Monat BikeErg Kalorien"
+      },
+      "summary_last_30_days_all_count": {
+        "name": "Letzte 30 Tage Trainingsanzahl"
+      },
+      "summary_last_30_days_all_distance": {
+        "name": "Letzte 30 Tage Gesamtdistanz"
+      },
+      "summary_last_30_days_all_time": {
+        "name": "Letzte 30 Tage Gesamtzeit"
+      },
+      "summary_last_30_days_all_calories": {
+        "name": "Letzte 30 Tage Gesamtkalorien"
+      },
+      "summary_last_30_days_rower_count": {
+        "name": "Letzte 30 Tage RowErg Trainingsanzahl"
+      },
+      "summary_last_30_days_rower_distance": {
+        "name": "Letzte 30 Tage RowErg Distanz"
+      },
+      "summary_last_30_days_rower_time": {
+        "name": "Letzte 30 Tage RowErg Zeit"
+      },
+      "summary_last_30_days_rower_calories": {
+        "name": "Letzte 30 Tage RowErg Kalorien"
+      },
+      "summary_last_30_days_skierg_count": {
+        "name": "Letzte 30 Tage SkiErg Trainingsanzahl"
+      },
+      "summary_last_30_days_skierg_distance": {
+        "name": "Letzte 30 Tage SkiErg Distanz"
+      },
+      "summary_last_30_days_skierg_time": {
+        "name": "Letzte 30 Tage SkiErg Zeit"
+      },
+      "summary_last_30_days_skierg_calories": {
+        "name": "Letzte 30 Tage SkiErg Kalorien"
+      },
+      "summary_last_30_days_bikeerg_count": {
+        "name": "Letzte 30 Tage BikeErg Trainingsanzahl"
+      },
+      "summary_last_30_days_bikeerg_distance": {
+        "name": "Letzte 30 Tage BikeErg Distanz"
+      },
+      "summary_last_30_days_bikeerg_time": {
+        "name": "Letzte 30 Tage BikeErg Zeit"
+      },
+      "summary_last_30_days_bikeerg_calories": {
+        "name": "Letzte 30 Tage BikeErg Kalorien"
+      },
+      "summary_last_7_days_all_count": {
+        "name": "Letzte 7 Tage Trainingsanzahl"
+      },
+      "summary_last_7_days_all_distance": {
+        "name": "Letzte 7 Tage Gesamtdistanz"
+      },
+      "summary_last_7_days_all_time": {
+        "name": "Letzte 7 Tage Gesamtzeit"
+      },
+      "summary_last_7_days_all_calories": {
+        "name": "Letzte 7 Tage Gesamtkalorien"
+      },
+      "summary_last_7_days_rower_count": {
+        "name": "Letzte 7 Tage RowErg Trainingsanzahl"
+      },
+      "summary_last_7_days_rower_distance": {
+        "name": "Letzte 7 Tage RowErg Distanz"
+      },
+      "summary_last_7_days_rower_time": {
+        "name": "Letzte 7 Tage RowErg Zeit"
+      },
+      "summary_last_7_days_rower_calories": {
+        "name": "Letzte 7 Tage RowErg Kalorien"
+      },
+      "summary_last_7_days_skierg_count": {
+        "name": "Letzte 7 Tage SkiErg Trainingsanzahl"
+      },
+      "summary_last_7_days_skierg_distance": {
+        "name": "Letzte 7 Tage SkiErg Distanz"
+      },
+      "summary_last_7_days_skierg_time": {
+        "name": "Letzte 7 Tage SkiErg Zeit"
+      },
+      "summary_last_7_days_skierg_calories": {
+        "name": "Letzte 7 Tage SkiErg Kalorien"
+      },
+      "summary_last_7_days_bikeerg_count": {
+        "name": "Letzte 7 Tage BikeErg Trainingsanzahl"
+      },
+      "summary_last_7_days_bikeerg_distance": {
+        "name": "Letzte 7 Tage BikeErg Distanz"
+      },
+      "summary_last_7_days_bikeerg_time": {
+        "name": "Letzte 7 Tage BikeErg Zeit"
+      },
+      "summary_last_7_days_bikeerg_calories": {
+        "name": "Letzte 7 Tage BikeErg Kalorien"
+      },
+      "summary_concept2_season_all_count": {
+        "name": "Concept2-Saison Trainingsanzahl"
+      },
+      "summary_concept2_season_all_distance": {
+        "name": "Concept2-Saison Gesamtdistanz"
+      },
+      "summary_concept2_season_all_time": {
+        "name": "Concept2-Saison Gesamtzeit"
+      },
+      "summary_concept2_season_all_calories": {
+        "name": "Concept2-Saison Gesamtkalorien"
+      },
+      "summary_concept2_season_rower_count": {
+        "name": "Concept2-Saison RowErg Trainingsanzahl"
+      },
+      "summary_concept2_season_rower_distance": {
+        "name": "Concept2-Saison RowErg Distanz"
+      },
+      "summary_concept2_season_rower_time": {
+        "name": "Concept2-Saison RowErg Zeit"
+      },
+      "summary_concept2_season_rower_calories": {
+        "name": "Concept2-Saison RowErg Kalorien"
+      },
+      "summary_concept2_season_skierg_count": {
+        "name": "Concept2-Saison SkiErg Trainingsanzahl"
+      },
+      "summary_concept2_season_skierg_distance": {
+        "name": "Concept2-Saison SkiErg Distanz"
+      },
+      "summary_concept2_season_skierg_time": {
+        "name": "Concept2-Saison SkiErg Zeit"
+      },
+      "summary_concept2_season_skierg_calories": {
+        "name": "Concept2-Saison SkiErg Kalorien"
+      },
+      "summary_concept2_season_bikeerg_count": {
+        "name": "Concept2-Saison BikeErg Trainingsanzahl"
+      },
+      "summary_concept2_season_bikeerg_distance": {
+        "name": "Concept2-Saison BikeErg Distanz"
+      },
+      "summary_concept2_season_bikeerg_time": {
+        "name": "Concept2-Saison BikeErg Zeit"
+      },
+      "summary_concept2_season_bikeerg_calories": {
+        "name": "Concept2-Saison BikeErg Kalorien"
       }
     }
   }

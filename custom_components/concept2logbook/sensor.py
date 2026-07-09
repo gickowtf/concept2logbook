@@ -370,14 +370,11 @@ def _summary_description(
 ) -> Concept2SensorEntityDescription:
     summary_key = _summary_key(summary_filter.period, summary_filter.workout_type)
     entity_key = _summary_entity_key(summary_filter, metric)
-    translation_key = metric if summary_key == "all_time_all" else None
-    if translation_key is not None:
-        translation_key = f"summary_{translation_key}"
+    translation_key = _summary_entity_key(summary_filter, metric)
 
     return Concept2SensorEntityDescription(
         key=entity_key,
         translation_key=translation_key,
-        name=None if translation_key else _summary_name(summary_filter, metric),
         native_unit_of_measurement=native_unit_of_measurement,
         device_class=device_class,
         icon=icon,
@@ -408,20 +405,3 @@ def _summary_entity_key(summary_filter: SummaryFilter, metric: str) -> str:
 
     return f"summary_{summary_filter.period}_{summary_filter.workout_type}_{metric}"
 
-
-def _summary_name(summary_filter: SummaryFilter, metric: str) -> str:
-    period = SUMMARY_PERIODS.get(summary_filter.period, summary_filter.period)
-    workout_type = WORKOUT_TYPES.get(
-        summary_filter.workout_type, summary_filter.workout_type
-    )
-    metric_name = {
-        "count": "Workout count",
-        "distance": "Distance",
-        "time": "Time",
-        "calories": "Calories",
-    }[metric]
-
-    if summary_filter.workout_type == "all":
-        return f"{period} {metric_name}"
-
-    return f"{period} {workout_type} {metric_name}"
