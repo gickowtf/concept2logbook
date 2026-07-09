@@ -1,0 +1,13 @@
+{
+  "domain": "concept2logbook",
+  "name": "Concept2 Logbook",
+  "codeowners": ["@gickowtf"],
+  "config_flow": true,
+  "documentation": "https://github.com/gickowtf/concept2logbook",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/gickowtf/concept2logbook/issues",
+  "loggers": ["httpx", "pyconcept2"],
+  "requirements": ["pyconcept2==0.1.0"],
+  "version": "0.1.0"
+}

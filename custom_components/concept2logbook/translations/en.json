@@ -1,0 +1,97 @@
+{
+  "title": "Concept2 Logbook",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Concept2 Logbook",
+        "description": "Enter a Concept2 access token with user:read and results:read permissions.",
+        "data": {
+          "name": "Name",
+          "access_token": "Access token",
+          "scan_interval": "Scan interval"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to Concept2 Logbook.",
+      "invalid_auth": "The access token is invalid or missing required permissions.",
+      "wrong_account": "The access token belongs to a different Concept2 Logbook user."
+    },
+    "abort": {
+      "already_configured": "This Concept2 Logbook user is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Concept2 Logbook options",
+        "data": {
+          "access_token": "New access token",
+          "scan_interval": "Scan interval",
+          "summary_periods": "Summary periods",
+          "workout_types": "Workout types"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to Concept2 Logbook.",
+      "invalid_auth": "The access token is invalid or missing required permissions.",
+      "wrong_account": "The access token belongs to a different Concept2 Logbook user."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "last_workout": {
+        "name": "Last workout"
+      },
+      "last_workout_distance": {
+        "name": "Last workout distance"
+      },
+      "last_workout_time": {
+        "name": "Last workout time"
+      },
+      "last_workout_calories": {
+        "name": "Last workout calories"
+      },
+      "last_workout_stroke_rate": {
+        "name": "Last workout stroke rate"
+      },
+      "last_workout_pace": {
+        "name": "Last workout pace"
+      },
+      "last_workout_drag_factor": {
+        "name": "Last workout drag factor"
+      },
+      "last_workout_workout_type": {
+        "name": "Last workout type"
+      },
+      "last_workout_source": {
+        "name": "Last workout source"
+      },
+      "last_workout_verified": {
+        "name": "Last workout verified"
+      },
+      "last_workout_ranked": {
+        "name": "Last workout ranked"
+      },
+      "profile": {
+        "name": "Profile"
+      },
+      "last_successful_update": {
+        "name": "Last successful update"
+      },
+      "summary_count": {
+        "name": "Workout count"
+      },
+      "summary_distance": {
+        "name": "Total distance"
+      },
+      "summary_time": {
+        "name": "Total time"
+      },
+      "summary_calories": {
+        "name": "Total calories"
+      }
+    }
+  }
+}

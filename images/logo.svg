@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 256" role="img" aria-labelledby="title desc">
+  <title id="title">Concept2 Logbook logo</title>
+  <desc id="desc">Concept2 Logbook wordmark with a stylized training logbook icon.</desc>
+  <defs>
+    <linearGradient id="bg" x1="42" y1="30" x2="214" y2="226" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6f7f2"/>
+      <stop offset="1" stop-color="#dfe7df"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="66" y1="68" x2="194" y2="184" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e53935"/>
+      <stop offset="1" stop-color="#ff8a3d"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#14342d" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="512" height="256" rx="44" fill="#f7f8f4"/>
+  <g transform="translate(34 34) scale(.73)">
+    <rect width="256" height="256" rx="54" fill="#153f37"/>
+    <circle cx="128" cy="128" r="94" fill="url(#bg)" filter="url(#shadow)"/>
+    <path d="M86 69h68c17 0 30 13 30 30v88H98c-23 0-42-19-42-42V99c0-17 13-30 30-30Z" fill="#ffffff"/>
+    <path d="M100 69h54c17 0 30 13 30 30v88h-84V69Z" fill="#edf2ec"/>
+    <path d="M89 69h13v118H89c-18 0-33-15-33-33V102c0-18 15-33 33-33Z" fill="url(#accent)"/>
+    <path d="M118 103h42M118 128h42M118 153h30" fill="none" stroke="#153f37" stroke-linecap="round" stroke-width="10"/>
+    <path d="M70 191c25-25 51-25 77 0 13 13 26 19 39 19" fill="none" stroke="#153f37" stroke-linecap="round" stroke-width="13"/>
+    <path d="M71 191c25-25 51-25 77 0" fill="none" stroke="#e53935" stroke-linecap="round" stroke-width="7"/>
+    <path d="M58 202h140" fill="none" stroke="#153f37" stroke-linecap="round" stroke-width="12"/>
+  </g>
+  <g fill="#153f37">
+    <text x="238" y="112" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">Concept2</text>
+    <text x="238" y="158" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="600">Logbook</text>
+  </g>
+  <path d="M239 179h178" stroke="#e53935" stroke-linecap="round" stroke-width="8"/>
+</svg>

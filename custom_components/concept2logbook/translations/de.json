@@ -1,0 +1,97 @@
+{
+  "title": "Concept2 Logbook",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Concept2 Logbook verbinden",
+        "description": "Gib einen Concept2 Access Token mit user:read- und results:read-Berechtigung ein.",
+        "data": {
+          "name": "Name",
+          "access_token": "Access Token",
+          "scan_interval": "Aktualisierungsintervall"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zum Concept2 Logbook nicht möglich.",
+      "invalid_auth": "Der Access Token ist ungültig oder hat nicht die nötigen Berechtigungen.",
+      "wrong_account": "Der Access Token gehört zu einem anderen Concept2 Logbook Benutzer."
+    },
+    "abort": {
+      "already_configured": "Dieser Concept2 Logbook Benutzer ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Concept2 Logbook Optionen",
+        "data": {
+          "access_token": "Neuer Access Token",
+          "scan_interval": "Aktualisierungsintervall",
+          "summary_periods": "Summary-Zeiträume",
+          "workout_types": "Trainingstypen"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Verbindung zum Concept2 Logbook nicht möglich.",
+      "invalid_auth": "Der Access Token ist ungültig oder hat nicht die nötigen Berechtigungen.",
+      "wrong_account": "Der Access Token gehört zu einem anderen Concept2 Logbook Benutzer."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "last_workout": {
+        "name": "Letztes Training"
+      },
+      "last_workout_distance": {
+        "name": "Letztes Training Distanz"
+      },
+      "last_workout_time": {
+        "name": "Letztes Training Zeit"
+      },
+      "last_workout_calories": {
+        "name": "Letztes Training Kalorien"
+      },
+      "last_workout_stroke_rate": {
+        "name": "Letztes Training Schlagfrequenz"
+      },
+      "last_workout_pace": {
+        "name": "Letztes Training Pace"
+      },
+      "last_workout_drag_factor": {
+        "name": "Letztes Training Drag Factor"
+      },
+      "last_workout_workout_type": {
+        "name": "Letztes Training Typ"
+      },
+      "last_workout_source": {
+        "name": "Letztes Training Quelle"
+      },
+      "last_workout_verified": {
+        "name": "Letztes Training verifiziert"
+      },
+      "last_workout_ranked": {
+        "name": "Letztes Training gerankt"
+      },
+      "profile": {
+        "name": "Profil"
+      },
+      "last_successful_update": {
+        "name": "Letzte erfolgreiche Aktualisierung"
+      },
+      "summary_count": {
+        "name": "Trainingsanzahl"
+      },
+      "summary_distance": {
+        "name": "Gesamtdistanz"
+      },
+      "summary_time": {
+        "name": "Gesamtzeit"
+      },
+      "summary_calories": {
+        "name": "Gesamtkalorien"
+      }
+    }
+  }
+}
