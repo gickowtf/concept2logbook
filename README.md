@@ -78,16 +78,3 @@ Summary sensors can be created for all time, current year, current month, last
 year, last month, last 30 days, last 7 days, and the Concept2 season. They can
 be split by all workout types, RowErg, SkiErg, and BikeErg.
 
-## HACS Default Store Preparation
-
-This repository includes the files HACS expects for an integration repository:
-
-- `custom_components/concept2logbook/manifest.json`
-- `custom_components/concept2logbook/brand/icon.png`
-- `hacs.json`
-- `README.md`
-- `.github/workflows/validate.yml`
-
-Before submitting to the HACS default store, make sure the GitHub repository is
-public, has a short description, has topics, has issues enabled, and has at
-least one GitHub release.
